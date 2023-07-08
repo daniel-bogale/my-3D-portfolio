@@ -13,7 +13,6 @@ const FeedbackCard = ({
   company,
   image,
 }) => {
-  console.log(testimonial);
 
   return (
     <motion.div
