@@ -46,6 +46,7 @@ const Contact = () => {
               type="text"
               name="email"
               value={form.email}
+              onChange={handleChange}
               placeholder="What's your email?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg border-none font-medium"
             />
@@ -57,6 +58,7 @@ const Contact = () => {
               type="text"
               name="message"
               value={form.message}
+              onChange={handleChange}
               placeholder="What do you want to say?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg border-none font-medium"
             />
