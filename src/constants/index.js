@@ -147,6 +147,7 @@ const experiences = [
   {
     title: "Full stack Developer",
     company_name: "3BL Enterprises",
+    company_url: "https://www.3blenterprises.com/",
     icon: tripleBottomLine,
     // company_name: "Meta",
     // icon: meta,
@@ -163,7 +164,8 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Dasesa",
+    company_name: "Dasesa Survey",
+    company_url: "https://dasesa.vercel.app/",
     icon: dasesa,
     iconBg: "#555273",
     date: "Sep 2023 - Present",
@@ -222,7 +224,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    // source_code_link: "https://github.com/",
   },
   {
     name: "Job IT",
@@ -243,7 +245,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    // source_code_link: "https://github.com/",
   },
   {
     name: "Trip Guide",
@@ -264,7 +266,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    // source_code_link: "https://github.com/",
   },
 ];
 
