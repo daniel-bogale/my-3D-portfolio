@@ -15,16 +15,17 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to="/"
+          to="https://github.com/daniel-bogale"
           className="flex items-center gap-2"
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
+          target="_blank"
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain"></img>
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">Dani &nbsp;
-            <span className="sm:block hidden">|@danibog</span>
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+            daniel-bogale
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

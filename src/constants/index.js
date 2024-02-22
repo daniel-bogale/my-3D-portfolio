@@ -19,12 +19,15 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  // carrent,
+  dasesaScreenshot,
   jobit,
   tripguide,
   threejs,
   tripleBottomLine,
   dasesa,
+  flutter,
+  reactNative,
 } from "../assets";
 
 export const navLinks = [
@@ -47,17 +50,18 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
+
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "React Native Developer",
+    icon: reactNative,
+  },
+  {
+    title: "Flutter Developer",
+    icon: flutter,
   },
 ];
 
@@ -206,9 +210,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dasesa",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A higher standard of online research. Dasesa Academic Ltd, a private limited company incorporated in Ethiopia with company registered number. ",
     tags: [
       {
         name: "react",
@@ -223,8 +227,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    // source_code_link: "https://github.com/",
+    image: dasesaScreenshot,
+    source_code_link: "https://dasesa.vercel.app/",
   },
   {
     name: "Job IT",
