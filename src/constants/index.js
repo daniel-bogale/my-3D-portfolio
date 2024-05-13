@@ -192,7 +192,7 @@ const testimonials = [
   // },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Dani does.",
     name: "Yhenew Belete",
     designation: "COO",
     company: "DEF Corp",
