@@ -39,6 +39,10 @@ import academyTubeScreenshot from "./academyTubeScreenshot.png";
 import arifgetScreenshot from "./arifgetScreenshot.png";
 import dasesaScreenshot from "./dasesaScreenshot.png";
 import heavensEchoScreenshot from "./heavensEchoScreenshot.png";
+import Nextjs from "./tech/nextjs.png";
+import Postgresql from "./tech/postgresql.png";
+import Firebase from "./tech/firebase.png";
+import Python from "./tech/python.png";
 
 export {
   logo,
@@ -62,10 +66,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+ 
   carrent,
   jobit,
   tripguide,
@@ -80,4 +81,8 @@ export {
   academyTubeScreenshot,
   arifgetScreenshot,
   heavensEchoScreenshot,
+  Nextjs,
+  Postgresql,
+  Firebase,
+  Python,
 };

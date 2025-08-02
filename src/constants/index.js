@@ -5,8 +5,6 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
   redux,
   tailwind,
@@ -17,7 +15,6 @@ import {
   docker,
   dasesaScreenshot,
   jobit,
-  tripguide,
   threejs,
   tripleBottomLine,
   dasesa,
@@ -27,6 +24,14 @@ import {
   academyTubeScreenshot,
   arifgetScreenshot,
   heavensEchoScreenshot,
+  Nextjs,
+  Postgresql,
+  Firebase,
+  Python,
+  css,
+  html,
+  
+
   // reactNative,
 } from "../assets";
 
@@ -87,11 +92,7 @@ const technologies = [
   },
   {
     name: "Next.js",
-    icon: reactjs, // Using React icon as placeholder
-  },
-  {
-    name: "Vue.js",
-    icon: reactjs, // Using React icon as placeholder
+    icon: Nextjs,
   },
   {
     name: "Redux Toolkit",
@@ -107,11 +108,11 @@ const technologies = [
   },
   {
     name: "Python",
-    icon: nodejs, // Using Node icon as placeholder
+    icon: Python,
   },
   {
     name: "PostgreSQL",
-    icon: mongodb, // Using MongoDB icon as placeholder
+    icon: Postgresql,
   },
   {
     name: "MongoDB",
@@ -119,7 +120,7 @@ const technologies = [
   },
   {
     name: "Firebase",
-    icon: mongodb, // Using MongoDB icon as placeholder
+    icon: Firebase,
   },
   {
     name: "Three JS",
@@ -211,7 +212,8 @@ const testimonials = [
     designation: "Software Developer",
     company: "Manager at Previous Role",
     image:
-      "https://www.linkedin.com/in/daniel-bogale/details/recommendations/?detailScreenTabIndex=0",
+      "https://media.licdn.com/dms/image/v2/D4E03AQEKuw9u3PT0Sw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1667717152979?e=1756944000&v=beta&t=Vc4aay2U0vACxCMBDWd7vsTWR-OVlUQlm0uf4489YJg",
+    // "https://www.linkedin.com/in/daniel-bogale/details/recommendations/?detailScreenTabIndex=0",
   },
   {
     testimonial:
@@ -220,7 +222,7 @@ const testimonials = [
     designation: "Self-Taught Heart Surgeon",
     company: "Heavens Echo Project",
     image:
-      "https://www.linkedin.com/in/daniel-bogale/details/recommendations/?detailScreenTabIndex=0",
+      "https://media.licdn.com/dms/image/v2/C4D03AQH96owcrssW9w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1662622889365?e=1756944000&v=beta&t=ze36u6H-Es-DJVd4MlQTSW7AxFiA7VRu0tpzXHcpfOE",
   },
   {
     testimonial:
@@ -229,7 +231,7 @@ const testimonials = [
     designation: "Fullstack Developer",
     company: "Software Engineer",
     image:
-      "https://www.linkedin.com/in/daniel-bogale/details/recommendations/?detailScreenTabIndex=0",
+      "https://media.licdn.com/dms/image/v2/D4E03AQHkXykdFsDMKQ/profile-displayphoto-shrink_800_800/B4EZY4kIN9G0Ac-/0/1744705717746?e=1756944000&v=beta&t=VhLFevK9uvbEGKaINtCeTTivPyK2K8MlBQpo2EFX5LI",
   },
   {
     testimonial:
@@ -237,7 +239,8 @@ const testimonials = [
     name: "Sarah Johnson",
     designation: "Product Manager",
     company: "Upwork Client - SaaS Dashboard",
-    image: "https://www.upwork.com/freelancers/~01581342a756dd8477",
+    image: "https://picsum.photos/300/300",
+    // image: "https://www.upwork.com/freelancers/~01581342a756dd8477",
   },
   {
     testimonial:
@@ -245,7 +248,7 @@ const testimonials = [
     name: "Michael Chen",
     designation: "Tech Lead",
     company: "Upwork Client - Trading App",
-    image: "https://www.upwork.com/freelancers/~01581342a756dd8477",
+    image: "https://picsum.photos/200/300",
   },
 ];
 
@@ -295,7 +298,7 @@ const projects = [
   {
     name: "AcademyTube",
     description:
-      "A modern, free Learning Management System (LMS) used by 500+ students and 50+ instructors. Features real-time course builder, student progress tracking, personalized learning paths, and comprehensive admin dashboard for analytics.",
+      "A modern, free Learning Management System (LMS) used by 500+ students and 50+ instructors. Features real-time course builder, student progress tracking, personalized learning paths, and admin dashboard for analytics.",
     tags: [
       {
         name: "react",
@@ -334,6 +337,27 @@ const projects = [
     ],
     image: heavensEchoScreenshot, // Using existing image as placeholder
     source_code_link: "#",
+  },
+  {
+    name: "Jobit",
+    description:
+      "A job listing platform that allows users to post jobs and apply for jobs. It also allows users to search for jobs and apply for jobs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "responsive",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit, // Using existing image as placeholder
+    source_code_link: "https://github.com/daniel-bogale",
   },
   // {
   //   name: "RuthfulHearts Charity",
