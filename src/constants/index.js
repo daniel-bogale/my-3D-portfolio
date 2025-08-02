@@ -15,11 +15,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  // carrent,
   dasesaScreenshot,
   jobit,
   tripguide,
@@ -27,7 +22,12 @@ import {
   tripleBottomLine,
   dasesa,
   flutter,
-  reactNative,
+  arifget,
+  academyTube,
+  academyTubeScreenshot,
+  arifgetScreenshot,
+  heavensEchoScreenshot,
+  // reactNative,
 } from "../assets";
 
 export const navLinks = [
@@ -47,20 +47,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Development",
     icon: web,
   },
-
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Frontend Development",
+    icon: web,
   },
-  // {
-  //   title: "React Native Developer",
-  //   icon: reactNative,
-  // },
   {
-    title: "Flutter Developer",
+    title: "Backend Development",
+    icon: web,
+  },
+  {
+    title: "Flutter Development",
     icon: flutter,
   },
 ];
@@ -87,6 +86,14 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Next.js",
+    icon: reactjs, // Using React icon as placeholder
+  },
+  {
+    name: "Vue.js",
+    icon: reactjs, // Using React icon as placeholder
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -99,131 +106,165 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "Python",
+    icon: nodejs, // Using Node icon as placeholder
+  },
+  {
+    name: "PostgreSQL",
+    icon: mongodb, // Using MongoDB icon as placeholder
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
+  },
+  {
+    name: "Firebase",
+    icon: mongodb, // Using MongoDB icon as placeholder
   },
   {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Flutter",
+    icon: flutter,
+  },
+  {
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Docker",
+    icon: docker,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Figma",
+    icon: figma,
   },
 ];
 
 const experiences = [
-  // {
-  //   title: "React.js Developer",
-  //   company_name: "3BL Enterprises",
-  //   icon: tripleBottomLine,
-  //   iconBg: "#383E56",
-  //   date: "April 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-
   {
-    title: "Full stack Developer",
-    company_name: "3BL Enterprises",
-    company_url: "https://www.3blenterprises.com/",
-    icon: tripleBottomLine,
-    // company_name: "Meta",
-    // icon: meta,
-    // iconBg: "#E6DEDD",
+    title: "Lead Front-End Developer",
+    company_name: "Arifget",
+    company_url: "https://arifget.com/",
+    icon: arifget, // Will use existing icon for now
     iconBg: "#1D1836",
-    date: "April 2023 - Present",
-
+    date: "Dec 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Manage and mentor the front-end team, ensuring best practices and timely project delivery.",
+      "Build responsive, high-performance web interfaces using modern technologies.",
+      "Work with designers, backend developers, and stakeholders to deliver user-centered solutions.",
+      "Lead development of an all-in-one digital marketplace empowering Ethiopian freelancers and entrepreneurs.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Dasesa Survey",
+    title: "Lead Web Developer",
+    company_name: "AcademyTube",
+    company_url: "#",
+    icon: academyTube, // Will use existing icon for now
+    iconBg: "#1D1836",
+    date: "Nov 2024 - Jan 2025",
+    points: [
+      "Led the frontend team and developed AcademyTube from ground up.",
+      "Built and launched a free LMS used by 500+ students and 50 instructors, improving course delivery and engagement.",
+      "Implemented real-time course builder, student progress tracking, and personalized learning paths.",
+      "Developed admin dashboard for course approval, category management, and analytics.",
+    ],
+  },
+  {
+    title: "Full-Stack Developer and Technical Lead",
+    company_name: "The Hinds' Feet Technologies PLC",
     company_url: "https://dasesa.co/",
     icon: dasesa,
-    iconBg: "#555273",
-    date: "Sep 2023 - Present",
+    iconBg: "#1D1836",
+    date: "Mar 2022 - Nov 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built the platform from the ground up, handling everything from system design to final implementation.",
+      "Led the technical team in designing, building, and scaling a platform used by over 100 researchers and 10,000 respondents.",
+      "Designed and developed a platform enabling dynamic surveys and robust analytics, facilitating the publication of 10+ research papers.",
+      "Architected scalable backend infrastructure using ReactJS, Node.js, and PostgreSQL ensuring seamless performance.",
+    ],
+  },
+  {
+    title: "Senior Software Developer",
+    company_name: "Triple Bottom Line Enterprises - 3BL",
+    company_url: "https://www.3blenterprises.com/",
+    icon: tripleBottomLine,
+    iconBg: "#1D1836",
+    date: "Jan 2021 - Present",
+    points: [
+      "Collaborated with cross-functional teams to gather requirements and develop high-quality code.",
+      "Spearheaded the refactoring of legacy systems, reducing downtime by 15% and improving performance by 20%.",
+      "Implemented a CI/CD pipeline, decreasing deployment time by 40%.",
+      "Delivered a key feature adopted by 900+ internal users, enhancing workflow efficiency by 25%.",
+      "Managed code repositories, conducted code reviews, and resolved technical challenges.",
     ],
   },
 ];
 
 const testimonials = [
-  // {
-  //   testimonial:
-  //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-  //   name: "Sara Lee",
-  //   designation: "CFO",
-  //   company: "Acme Co",
-  //   image: "https://randomuser.me/api/portraits/women/4.jpg",
-  // },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Dani does.",
-    name: "Yhenew Belete",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Dani is an outstanding developer. He's one of the best I've worked with—always eager to learn, quick to adapt, and able to pick up new concepts remarkably fast. What really sets Dani apart is that he doesn't just do what he's told; he actively offers his own suggestions and always looks for the best way to solve a problem.",
+    name: "Amen Abatemam",
+    designation: "Software Developer",
+    company: "Manager at Previous Role",
+    image:
+      "https://www.linkedin.com/in/daniel-bogale/details/recommendations/?detailScreenTabIndex=0",
   },
-  // {
-  //   testimonial:
-  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-  //   name: "Lisa Wang",
-  //   designation: "CTO",
-  //   company: "456 Enterprises",
-  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
-  // },
+  {
+    testimonial:
+      "Daniel didn't just implement the UI as provided; he thoughtfully expanded on it, pushing the web-system to display and function in more ways than we originally imagined. His ability to anticipate needs, propose practical solutions, and implement improvements was truly impressive.",
+    name: "Fitsum Admasu",
+    designation: "Self-Taught Heart Surgeon",
+    company: "Heavens Echo Project",
+    image:
+      "https://www.linkedin.com/in/daniel-bogale/details/recommendations/?detailScreenTabIndex=0",
+  },
+  {
+    testimonial:
+      "I had the pleasure of working closely with Daniel Bogale on multiple projects. He's one of the most disciplined and driven people I've collaborated with. He consistently pushes himself and the team toward excellence, never settling for 'just okay.'",
+    name: "Dereje Desta",
+    designation: "Fullstack Developer",
+    company: "Software Engineer",
+    image:
+      "https://www.linkedin.com/in/daniel-bogale/details/recommendations/?detailScreenTabIndex=0",
+  },
+  {
+    testimonial:
+      "This was my second time working with Daniel, and once again he delivered great results. He quickly understood the requirements, improved our dashboard UI with clean and responsive design, and used shadcn/ui components effectively. Communication was smooth and turnaround was fast.",
+    name: "Sarah Johnson",
+    designation: "Product Manager",
+    company: "Upwork Client - SaaS Dashboard",
+    image: "https://www.upwork.com/freelancers/~01581342a756dd8477",
+  },
+  {
+    testimonial:
+      "Working with Daniel was a game-changer for our trading application. When we faced critical caching issues causing inconsistent financial data display in our Next.js/Express prototype, he not only diagnosed the root cause within hours but implemented an elegant solution that exceeded expectations.",
+    name: "Michael Chen",
+    designation: "Tech Lead",
+    company: "Upwork Client - Trading App",
+    image: "https://www.upwork.com/freelancers/~01581342a756dd8477",
+  },
 ];
 
 const projects = [
   {
-    name: "Dasesa",
+    name: "Dasesa Survey Platform",
     description:
-      "A higher standard of online research. Dasesa Academic Ltd, a private limited company incorporated in Ethiopia with company registered number. ",
+      "A comprehensive survey building and participant recruitment platform used by 100+ researchers and 10,000+ respondents. Developed using ReactJS, Node.js, and PostgreSQL with advanced analytics and AI-powered insights.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "postgresql",
         color: "pink-text-gradient",
       },
     ],
@@ -231,47 +272,90 @@ const projects = [
     source_code_link: "https://dasesa.co/",
   },
   {
-    name: "Job IT",
+    name: "Arifget",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An all-in-one digital marketplace empowering Ethiopian freelancers and entrepreneurs. Combines freelancing, digital asset trading, and online learning in a seamless platform. Leading the frontend development and team management.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    // source_code_link: "https://github.com/",
+    image: arifgetScreenshot, // Using existing screenshot for now
+    source_code_link: "https://arifget.com/",
   },
   {
-    name: "Trip Guide",
+    name: "AcademyTube",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A modern, free Learning Management System (LMS) used by 500+ students and 50+ instructors. Features real-time course builder, student progress tracking, personalized learning paths, and comprehensive admin dashboard for analytics.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "postgresql",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    // source_code_link: "https://github.com/",
+    image: academyTubeScreenshot, // Using existing image as placeholder
+    source_code_link: "#",
   },
+
+  {
+    name: "Gospel Music Learning Platform",
+    description:
+      "Built a full-featured web platform for a gospel music education app. The system supports course creation, role-based access (admins, instructors, students), group subscriptions, secure video streaming, quizzes, and analytics dashboards. Designed intuitive UI/UX for fast, seamless interaction enabling smooth content delivery and efficient admin workflows.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "video-streaming",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: heavensEchoScreenshot, // Using existing image as placeholder
+    source_code_link: "#",
+  },
+  // {
+  //   name: "RuthfulHearts Charity",
+  //   description:
+  //     "A charity website that achieved 2000+ monthly visitors and experienced 30% growth in user base within the first 6 months. Increased online engagement by 500% and maintained consistent visitor numbers showcasing stability and reliability.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "responsive",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide, // Using existing image as placeholder
+  //   source_code_link: "https://ruthfulhearts.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

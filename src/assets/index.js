@@ -33,7 +33,12 @@ import tripguide from "./tripguide.png";
 import tripleBottomLine from "./company/3bl.png";
 import dasesa from "./company/dasesa.png";
 import reactNative from "./ReactNative.png";
-import dasesaScreenshot from "./Dasesa-screenshot.png";
+import arifget from "./company/arifget.png";
+import academyTube from "./company/academyTube.png";
+import academyTubeScreenshot from "./academyTubeScreenshot.png";
+import arifgetScreenshot from "./arifgetScreenshot.png";
+import dasesaScreenshot from "./dasesaScreenshot.png";
+import heavensEchoScreenshot from "./heavensEchoScreenshot.png";
 
 export {
   logo,
@@ -70,4 +75,9 @@ export {
   reactNative,
   dasesaScreenshot,
   redirectLink,
+  arifget,
+  academyTube,
+  academyTubeScreenshot,
+  arifgetScreenshot,
+  heavensEchoScreenshot,
 };
