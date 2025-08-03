@@ -198,8 +198,8 @@ const testimonials = [
     testimonial:
       "Dani is an outstanding developer. He's one of the best I've worked with—always eager to learn, quick to adapt, and able to pick up new concepts remarkably fast. What really sets Dani apart is that he doesn't just do what he's told; he actively offers his own suggestions and always looks for the best way to solve a problem.",
     name: "Amen Abatemam",
-    designation: "Software Developer",
-    company: "Manager at Previous Role",
+    designation: "Tech Lead",
+    company: "Arifget",
     image:
       "https://media.licdn.com/dms/image/v2/D4E03AQEKuw9u3PT0Sw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1667717152979?e=1756944000&v=beta&t=Vc4aay2U0vACxCMBDWd7vsTWR-OVlUQlm0uf4489YJg",
     // "https://www.linkedin.com/in/daniel-bogale/details/recommendations/?detailScreenTabIndex=0",
@@ -208,8 +208,8 @@ const testimonials = [
     testimonial:
       "Daniel didn't just implement the UI as provided; he thoughtfully expanded on it, pushing the web-system to display and function in more ways than we originally imagined. His ability to anticipate needs, propose practical solutions, and implement improvements was truly impressive.",
     name: "Fitsum Admasu",
-    designation: "Self-Taught Heart Surgeon",
-    company: "Heavens Echo Project",
+    designation: "Project Manager",
+    company: "Heaven's Echo",
     image:
       "https://media.licdn.com/dms/image/v2/C4D03AQH96owcrssW9w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1662622889365?e=1756944000&v=beta&t=ze36u6H-Es-DJVd4MlQTSW7AxFiA7VRu0tpzXHcpfOE",
   },
@@ -218,7 +218,7 @@ const testimonials = [
       "I had the pleasure of working closely with Daniel Bogale on multiple projects. He's one of the most disciplined and driven people I've collaborated with. He consistently pushes himself and the team toward excellence, never settling for 'just okay.'",
     name: "Dereje Desta",
     designation: "Fullstack Developer",
-    company: "Software Engineer",
+    company: "safaricom ethiopia",
     image:
       "https://media.licdn.com/dms/image/v2/D4E03AQHkXykdFsDMKQ/profile-displayphoto-shrink_800_800/B4EZY4kIN9G0Ac-/0/1744705717746?e=1756944000&v=beta&t=VhLFevK9uvbEGKaINtCeTTivPyK2K8MlBQpo2EFX5LI",
   },
