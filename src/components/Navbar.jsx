@@ -15,13 +15,11 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to="https://github.com/daniel-bogale"
           className="flex items-center gap-2"
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
-          target="_blank"
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain"></img>
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
@@ -43,26 +41,44 @@ const Navbar = () => {
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
-            src={toggle ? close : menu}
+            src={menu}
             alt="menu"
-            className="w-[28px] h-[28px] object-contain cursor-pointer"
+            className="w-[32px] h-[32px] object-contain cursor-pointer z-30"
             onClick={() => setToggle(!toggle)}
           />
+          {/* Overlay */}
           <div
-            className={`${
-              !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            className={`fixed inset-0 bg-black bg-opacity-60 transition-opacity duration-300 z-20 ${
+              toggle
+                ? "opacity-100 pointer-events-auto"
+                : "opacity-0 pointer-events-none"
+            }`}
+            onClick={() => setToggle(false)}
+          ></div>
+          {/* Slide-in menu */}
+          <div
+            className={`fixed top-0 right-0 h-full w-3/4 max-w-xs bg-primary shadow-lg z-30 transform transition-transform duration-300 ${
+              toggle ? "translate-x-0" : "translate-x-full"
+            }`}
           >
-            <ul className="list-none flex flex-col justify-end items-start gap-4">
+            <div className="flex justify-end p-4">
+              <img
+                src={close}
+                alt="close menu"
+                className="w-6 h-6 cursor-pointer absolute right-6 top-6"
+                onClick={() => setToggle(false)}
+              />
+            </div>
+            <ul className="list-none flex flex-col gap-8 px-8">
               {navLinks.map((link) => (
                 <li
                   key={link.id}
-                  className={`${
+                  className={`$ {
                     active === link.title ? "text-white" : "text-secondary"
-                  } font-poppins font-medium  cursor-pointer`}
+                  } font-poppins font-semibold text-lg cursor-pointer transition-colors duration-200`}
                   onClick={() => {
                     setActive(link.title);
-                    setToggle(!toggle);
+                    setToggle(false);
                   }}
                 >
                   <a href={`#${link.id}`}>{link.title}</a>

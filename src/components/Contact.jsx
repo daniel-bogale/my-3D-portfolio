@@ -16,9 +16,6 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
-  //template_f6i95kj
-  //service_ujmn8xe
-  // VbWHxUJF5EKAJX65l
 
   const handleChange = (e) => {
     const { target } = e;
@@ -66,7 +63,7 @@ const Contact = () => {
         }
       );
   };
-  
+
   return (
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}

@@ -3,6 +3,8 @@ import {
   backend,
   creator,
   web,
+  css,
+  html,
   javascript,
   typescript,
   reactjs,
@@ -28,11 +30,6 @@ import {
   Postgresql,
   Firebase,
   Python,
-  css,
-  html,
-  
-
-  // reactNative,
 } from "../assets";
 
 export const navLinks = [
@@ -45,6 +42,14 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "testimonials",
+    title: "Testimonials",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -52,40 +57,24 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Development",
+    title: "Web Development",
     icon: web,
+  },
+  {
+    title: "Mobile Development",
+    icon: mobile,
   },
   {
     title: "Frontend Development",
-    icon: web,
+    icon: backend,
   },
   {
     title: "Backend Development",
-    icon: web,
-  },
-  {
-    title: "Flutter Development",
-    icon: flutter,
+    icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
   {
     name: "React JS",
     icon: reactjs,
@@ -148,8 +137,8 @@ const experiences = [
   {
     title: "Lead Front-End Developer",
     company_name: "Arifget",
-    company_url: "https://arifget.com/",
-    icon: arifget, // Will use existing icon for now
+    company_url: "https://main.arifget.com/",
+    icon: arifget,
     iconBg: "#1D1836",
     date: "Dec 2024 - Present",
     points: [
@@ -162,8 +151,8 @@ const experiences = [
   {
     title: "Lead Web Developer",
     company_name: "AcademyTube",
-    company_url: "#",
-    icon: academyTube, // Will use existing icon for now
+    company_url: "https://academy-tube-web.vercel.app/",
+    icon: academyTube,
     iconBg: "#1D1836",
     date: "Nov 2024 - Jan 2025",
     points: [
@@ -239,7 +228,8 @@ const testimonials = [
     name: "Sarah Johnson",
     designation: "Product Manager",
     company: "Upwork Client - SaaS Dashboard",
-    image: "https://picsum.photos/300/300",
+    image:
+      "https://fastly.picsum.photos/id/145/4288/2848.jpg?hmac=UkhcwQUE-vRBFXzDN1trCwWigpm7MXG5Bl5Ji103QG4",
     // image: "https://www.upwork.com/freelancers/~01581342a756dd8477",
   },
   {
@@ -248,7 +238,8 @@ const testimonials = [
     name: "Michael Chen",
     designation: "Tech Lead",
     company: "Upwork Client - Trading App",
-    image: "https://picsum.photos/200/300",
+    image:
+      "https://fastly.picsum.photos/id/180/2400/1600.jpg?hmac=Ig-CXcpNdmh51k3kXpNqNqcDYTwXCIaonYiBOnLXBb8",
   },
 ];
 
@@ -259,16 +250,24 @@ const projects = [
       "A comprehensive survey building and participant recruitment platform used by 100+ researchers and 10,000+ respondents. Developed using ReactJS, Node.js, and PostgreSQL with advanced analytics and AI-powered insights.",
     tags: [
       {
-        name: "react",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "postgresql",
+        name: "Firebase",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Mantine UI",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
       },
     ],
     image: dasesaScreenshot,
@@ -280,16 +279,32 @@ const projects = [
       "An all-in-one digital marketplace empowering Ethiopian freelancers and entrepreneurs. Combines freelancing, digital asset trading, and online learning in a seamless platform. Leading the frontend development and team management.",
     tags: [
       {
-        name: "react",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "nextjs",
+        name: "ExpressJS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "PostgreSQL",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Shadcn/UI",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
       },
     ],
     image: arifgetScreenshot, // Using existing screenshot for now
@@ -301,20 +316,32 @@ const projects = [
       "A modern, free Learning Management System (LMS) used by 500+ students and 50+ instructors. Features real-time course builder, student progress tracking, personalized learning paths, and admin dashboard for analytics.",
     tags: [
       {
-        name: "react",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "ExpressJS",
         color: "green-text-gradient",
       },
       {
-        name: "postgresql",
+        name: "PostgreSQL",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Shadcn/UI",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "yellow-text-gradient",
       },
     ],
     image: academyTubeScreenshot, // Using existing image as placeholder
-    source_code_link: "#",
+    source_code_link: "https://academy-tube-web.vercel.app/",
   },
 
   {
@@ -323,63 +350,37 @@ const projects = [
       "Built a full-featured web platform for a gospel music education app. The system supports course creation, role-based access (admins, instructors, students), group subscriptions, secure video streaming, quizzes, and analytics dashboards. Designed intuitive UI/UX for fast, seamless interaction enabling smooth content delivery and efficient admin workflows.",
     tags: [
       {
-        name: "react",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "ExpressJS",
         color: "green-text-gradient",
       },
       {
-        name: "video-streaming",
+        name: "PostgreSQL",
         color: "pink-text-gradient",
       },
-    ],
-    image: heavensEchoScreenshot, // Using existing image as placeholder
-    source_code_link: "#",
-  },
-  {
-    name: "Jobit",
-    description:
-      "A job listing platform that allows users to post jobs and apply for jobs. It also allows users to search for jobs and apply for jobs.",
-    tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Tailwind CSS",
+        color: "orange-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "green-text-gradient",
+        name: "Shadcn/UI",
+        color: "purple-text-gradient",
       },
       {
-        name: "responsive",
-        color: "pink-text-gradient",
+        name: "TypeScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "red-text-gradient",
       },
     ],
-    image: jobit, // Using existing image as placeholder
-    source_code_link: "https://github.com/daniel-bogale",
+    image: heavensEchoScreenshot,
+    source_code_link: "https://admin.heavensecho.org",
   },
-  // {
-  //   name: "RuthfulHearts Charity",
-  //   description:
-  //     "A charity website that achieved 2000+ monthly visitors and experienced 30% growth in user base within the first 6 months. Increased online engagement by 500% and maintained consistent visitor numbers showcasing stability and reliability.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "responsive",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide, // Using existing image as placeholder
-  //   source_code_link: "https://ruthfulhearts.com/",
-  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
